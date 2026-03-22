@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ms. M's Classroom</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- marked.js renders markdown to HTML in the browser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER
+  ============================================================ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-text">
+        <h1>Ms. M's Classroom</h1>
+        <p class="tagline">English &amp; Yearbook · Jefferson High School</p>
+      </div>
+      <nav class="main-nav" aria-label="Class sections">
+        <a href="#english3"         class="nav-link">English 3</a>
+        <a href="#english3-honors"  class="nav-link">English 3 Honors</a>
+        <a href="#ap-lang"          class="nav-link">AP Lang</a>
+        <a href="#yearbook"         class="nav-link">Yearbook</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" aria-label="Welcome">
+    <div class="hero-inner">
+      <h2>Welcome to Class!</h2>
+      <p>Find your assignments, resources, and updates below.<br>
+         Click any section to expand it.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CLASS SECTIONS  (content loaded from /content/*.md)
+  ============================================================ -->
+  <main class="sections-wrapper">
+
+    <section class="class-section" id="english3">
+      <button class="section-toggle" aria-expanded="false" aria-controls="english3-body">
+        <span class="section-icon">📖</span>
+        <span class="section-title">English 3</span>
+        <span class="chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="section-body" id="english3-body" hidden>
+        <div class="markdown-content" data-src="content/english3.md">Loading…</div>
+      </div>
+    </section>
+
+    <section class="class-section" id="english3-honors">
+      <button class="section-toggle" aria-expanded="false" aria-controls="english3-honors-body">
+        <span class="section-icon">⭐</span>
+        <span class="section-title">English 3 Honors</span>
+        <span class="chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="section-body" id="english3-honors-body" hidden>
+        <div class="markdown-content" data-src="content/english3-honors.md">Loading…</div>
+      </div>
+    </section>
+
+    <section class="class-section" id="ap-lang">
+      <button class="section-toggle" aria-expanded="false" aria-controls="ap-lang-body">
+        <span class="section-icon">🏆</span>
+        <span class="section-title">AP Language &amp; Composition</span>
+        <span class="chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="section-body" id="ap-lang-body" hidden>
+        <div class="markdown-content" data-src="content/ap-lang.md">Loading…</div>
+      </div>
+    </section>
+
+    <section class="class-section" id="yearbook">
+      <button class="section-toggle" aria-expanded="false" aria-controls="yearbook-body">
+        <span class="section-icon">📸</span>
+        <span class="section-title">Yearbook</span>
+        <span class="chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="section-body" id="yearbook-body" hidden>
+        <div class="markdown-content" data-src="content/yearbook.md">Loading…</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <p>Built with 💜 · Jefferson High School · <span id="school-year"></span></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
