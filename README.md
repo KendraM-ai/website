@@ -1,6 +1,8 @@
 # Ms. M's Classroom Website !4
 
-A static, purple-themed classroom site that deploys automatically to GitHub Pages.
+**Live site:** https://kendram-ai.github.io/website/
+
+A static, purple-themed classroom site hosted on **GitHub Pages** — GitHub's free static site hosting service. When you push a change to the `main` branch, the included GitHub Actions workflow automatically packages the files and publishes them to that URL within about a minute. There is no server to manage, no hosting bill, and no deployments to trigger manually — a commit is all it takes.
 
 ---
 
