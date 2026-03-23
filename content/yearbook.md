@@ -56,7 +56,7 @@ Senior ads and shout-outs are still available! Share the order form link with pa
 - **Quarter page** – $50
 - **Business card** – $25
 
-All payments go through the front office. Bring the receipt to Ms. M.
+All payments go through the front office. Bring the receipt to Mrs. Messana.
 
 ---
 

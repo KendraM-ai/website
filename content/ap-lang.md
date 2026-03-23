@@ -8,7 +8,7 @@ Welcome to AP Lang! Our goal is to develop your ability to read rhetorically and
 
 **AP Language & Composition Exam: Wednesday, May 14, 2025 – 8:00 AM**
 
-> Make sure you are registered through the front office. See Ms. M with any questions.
+> Make sure you are registered through the front office. See Mrs. Messana with any questions.
 
 ---
 
