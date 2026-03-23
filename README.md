@@ -95,6 +95,6 @@ website/
 
 ## Customizing the Site
 
-- **Change the teacher's name / school name** — edit the `<h1>` and `.tagline` in `index.html`
+- **Current school name** — `Bishop McLaughlin Catholic High School` appears in the header tagline and footer in `index.html`
 - **Change the color scheme** — edit the CSS variables at the top of `css/styles.css`
 - **Add a new section** — duplicate one of the `<section class="class-section">` blocks in `index.html` and create a matching `.md` file in `content/`
